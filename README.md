@@ -1,0 +1,1 @@
+Ctrl-MAR is a controllable two-stage metal artifact reduction framework for X-ray CT that uses ControlNet with a timestep-gated fidelity loss and fast ODE-based diffusion sampling to remove metal-induced artifacts while preserving anatomical structures, followed by a lightweight residual refinement module to restore fine textures and correct local distortions.
