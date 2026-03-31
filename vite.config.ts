@@ -154,6 +154,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   plugins,
+  base: '/Ctri-MAR/',   // ← 在这里加，改成你的 GitHub 仓库名
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
