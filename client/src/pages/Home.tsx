@@ -26,12 +26,15 @@ const AUTHORS: Author[] = [
   { name: "Yang Chen", affiliation: "Senior Member, IEEE" },
 ];
 
-@article{ctrlmar2026,
-  author  = {Zhanghao Chen and Yiming Zheng and Yikun Zhang and Yang Chen},
-  journal = {IEEE Journal of Biomedical and Health Informatics},
-  year    = {2026},
-  note    = {Under Review}
-}
+const BIBTEX = "@article{ctrlmar2026,\n" +
+  "  title   = {Ctrl-MAR: Taming CT Metal Artifacts via a Hybrid\n" +
+  "             Controllable Diffusion and Residual Refinement Framework},\n" +
+  "  author  = {Zhanghao Chen and Yiming Zheng and Yikun Zhang and Yang Chen},\n" +
+  "  journal = {IEEE Journal of Biomedical and Health Informatics},\n" +
+  "  year    = {2026},\n" +
+  "  note    = {Under Review}\n" +
+  "}";
+
 
 // ── Scroll animation hook ───────────────────────────────────────────────────
 function useFadeUp() {
