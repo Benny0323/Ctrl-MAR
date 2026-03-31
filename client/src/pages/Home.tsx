@@ -20,17 +20,18 @@ interface Author {
 
 // ── Data ────────────────────────────────────────────────────────────────────
 const AUTHORS: Author[] = [
-  { name: "Anonymous Author(s)", affiliation: "Anonymous Institution" },
+  { name: "Zhanghao Chen", affiliation: "Graduate Student Member, IEEE" },
+  { name: "Yiming Zheng", affiliation: "" },
+  { name: "Yikun Zhang", affiliation: "" },
+  { name: "Yang Chen", affiliation: "Senior Member, IEEE" },
 ];
 
-const BIBTEX = `@inproceedings{ctrlmar2025,
-  title     = {Ctrl-MAR: Taming CT Metal Artifacts via a Hybrid
-               Controllable Diffusion and Residual Refinement Framework},
-  author    = {Anonymous Author(s)},
-  booktitle = {Proceedings of the IEEE/CVF Conference on
-               Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2025}
-}`;
+@article{ctrlmar2026,
+  author  = {Zhanghao Chen and Yiming Zheng and Yikun Zhang and Yang Chen},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  year    = {2026},
+  note    = {Under Review}
+}
 
 // ── Scroll animation hook ───────────────────────────────────────────────────
 function useFadeUp() {
@@ -128,7 +129,7 @@ function HeroSection() {
             className="stage-pill stage-pill-blue"
             style={{ fontSize: "0.8rem", padding: "0.35rem 1rem" }}
           >
-            CVPR 2025
+            IEEE JBHI 2026 · Under Review
           </span>
         </div>
 
