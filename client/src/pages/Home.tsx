@@ -132,7 +132,7 @@ function HeroSection() {
             className="stage-pill stage-pill-blue"
             style={{ fontSize: "0.8rem", padding: "0.35rem 1rem" }}
           >
-            IEEE JBHI 2026 · Under Review
+            IEEE TMI 2026 · Under Review
           </span>
         </div>
 
