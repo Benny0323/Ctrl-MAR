@@ -28,9 +28,9 @@ const AUTHORS: Author[] = [
 
 const BIBTEX = "@article{ctrlmar2026,\n" +
   "  title   = {Ctrl-MAR: Taming CT Metal Artifacts via a Hybrid\n" +
-  "             Controllable Diffusion and Residual Refinement Framework},\n" +
+  "             Controllable Diffusion and Residual Refinement Framework,\n" +
   "  author  = {Zhanghao Chen and Yiming Zheng and Yikun Zhang and Yang Chen},\n" +
-  "  journal = {IEEE Journal of Biomedical and Health Informatics},\n" +
+  "  journal = {IEEE Transactions of Medical Imaging},\n" +
   "  year    = {2026},\n" +
   "  note    = {Under Review}\n" +
   "}";
