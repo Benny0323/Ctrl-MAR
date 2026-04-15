@@ -170,23 +170,41 @@ function HeroSection() {
           and Wavelet Residual Refinement
         </h1>
 
-        {/* Authors */}
+       {/* Authors */}
         <div
           className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8"
           style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.95rem" }}
         >
           {AUTHORS.map((a) => (
             <div key={a.name} className="text-center">
-              <span style={{ color: "oklch(0.22 0.02 265)", fontWeight: 600 }}>
-                {a.name}
-              </span>
+              {a.website ? (
+                <a
+                  href={a.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: "oklch(0.42 0.18 264)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                    transition: "color 0.2s",
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.color = "oklch(0.52 0.18 264)"}
+                  onMouseLeave={(e) => e.currentTarget.style.color = "oklch(0.42 0.18 264)"}
+                >
+                  {a.name}
+                </a>
+              ) : (
+                <span style={{ color: "oklch(0.22 0.02 265)", fontWeight: 600 }}>
+                  {a.name}
+                </span>
+              )}
               <br />
               <span style={{ color: "oklch(0.52 0.015 265)", fontSize: "0.82rem" }}>
                 {a.affiliation}
               </span>
             </div>
           ))}
-        </div>
+    </div>
 
         {/* Action buttons */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
