@@ -27,8 +27,7 @@ const AUTHORS: Author[] = [
 ];
 
 const BIBTEX = "@article{ctrlmar2026,\n" +
-  "  title   = {Ctrl-MAR: CT Metal Artifact Reduction via \n" +
-  "             Controllable Diffusion and Wavelet Residual Refinement,\n" +
+  "  title   = {Ctrl-MAR: CT Metal Artifact Reduction via Controllable Diffusion and Wavelet Residual Refinement,\n" +
   "  author  = {Zhanghao Chen and Yiming Zheng and Yikun Zhang and Yang Chen},\n" +
   "  journal = {IEEE Transactions of Medical Imaging},\n" +
   "  year    = {2026},\n" +
@@ -149,11 +148,11 @@ function HeroSection() {
             letterSpacing: "-0.02em",
           }}
         >
-          Ctrl-MAR: Taming CT Metal Artifacts via a Hybrid{" "}
+          Ctrl-MAR: CT Metal Artifact Reduction via{" "}
           <span style={{ color: "oklch(0.42 0.18 264)", fontStyle: "italic" }}>
             Controllable Diffusion
           </span>{" "}
-          and Residual Refinement Framework
+          and Wavelet Residual Refinement
         </h1>
 
         {/* Authors */}
