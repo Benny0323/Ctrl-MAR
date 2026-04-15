@@ -15,19 +15,34 @@ const FRAMEWORK_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663481308195/
 interface Author {
   name: string;
   affiliation: string;
-  equal?: boolean;
+  website?: string; // 可选的个人网页链接
 }
 
 // ── Data ────────────────────────────────────────────────────────────────────
 const AUTHORS: Author[] = [
-  { name: "Zhanghao Chen", affiliation: "Graduate Student Member, IEEE" },
-  { name: "Yiming Zheng", affiliation: "" },
-  { name: "Yikun Zhang", affiliation: "" },
-  { name: "Yang Chen", affiliation: "Senior Member, IEEE" },
+  { 
+    name: "Zhanghao Chen", 
+    affiliation: "Graduate Student Member, IEEE",
+    website: "https://bennychan.github.io" 
+  },
+  { 
+    name: "Yiming Zheng", 
+    affiliation: "",
+  },
+  { 
+    name: "Yikun Zhang", 
+    affiliation: "",
+    website: "https://cs.seu.edu.cn/yikun/main.htm" 
+  },
+  { 
+    name: "Yang Chen", 
+    affiliation: "Senior Member, IEEE",
+    website: "https://chenyang10.github.io/chengyang/" 
+  },
 ];
 
 const BIBTEX = "@article{ctrlmar2026,\n" +
-  "  title   = {Ctrl-MAR: CT Metal Artifact Reduction via Controllable Diffusion and Wavelet Residual Refinement,\n" +
+  "  title   = {Ctrl-MAR: CT Metal Artifact Reduction via Controllable Diffusion and Wavelet Residual Refinement},\n" +
   "  author  = {Zhanghao Chen and Yiming Zheng and Yikun Zhang and Yang Chen},\n" +
   "  journal = {IEEE Transactions of Medical Imaging},\n" +
   "  year    = {2026},\n" +
