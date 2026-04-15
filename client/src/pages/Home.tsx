@@ -23,7 +23,7 @@ const AUTHORS: Author[] = [
   { 
     name: "Zhanghao Chen", 
     affiliation: "Graduate Student Member, IEEE",
-    website: "https://bennychan.github.io" 
+    website: "https://benny0323.github.io" 
   },
   { 
     name: "Yiming Zheng", 
