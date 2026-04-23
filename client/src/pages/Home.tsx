@@ -34,11 +34,11 @@ const AUTHORS: Author[] = [
     affiliation: "",
     website: "https://cs.seu.edu.cn/yikun/main.htm" 
   },
-  { 
-    name: "Yang Chen", 
-    affiliation: "Senior Member, IEEE",
-    website: "https://chenyang10.github.io/chengyang/" 
-  },
+  // { 
+  //   name: "Yang Chen", 
+  //   affiliation: "Senior Member, IEEE",
+  //   website: "https://chenyang10.github.io/chengyang/" 
+  // },
 ];
 
 const BIBTEX = "@article{ctrlmar2026,\n" +
